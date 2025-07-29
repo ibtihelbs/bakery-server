@@ -1,0 +1,93 @@
+{
+  "bakery": {
+    "name": "Delicious Pastries",
+    "description": "Une boulangerie en ligne offrant une variété de pâtisseries fraîchement préparées, des gâteaux et du pain faits avec amour et les meilleurs ingrédients.",
+    "location": "Tunis, Tunisie",
+    "contact": {
+      "phone": "+216 123 456 789",
+      "email": "contact@deliciouspastries.com",
+      "social_media": {
+        "instagram": "https://www.instagram.com/deliciouspastries",
+        "facebook": "https://www.facebook.com/deliciouspastries"
+      }
+    },
+    "products": [
+      {
+        "id": 1,
+        "name": "Croissant au beurre",
+        "description": "Un croissant feuilleté au beurre, parfait pour le petit déjeuner ou une collation.",
+        "price": "2.50 TND",
+        "image_url": "./images/img1.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Pain au chocolat",
+        "description": "Un délicieux pain au chocolat avec une pâte feuilletée légère et du chocolat noir fondant.",
+        "price": "3.00 TND",
+        "image_url": "./images/img2.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Éclair au café",
+        "description": "Un éclair rempli de crème au café et recouvert d'un glaçage au café.",
+        "price": "4.00 TND",
+        "image_url": "./images/img3.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Tarte aux fruits",
+        "description": "Une tarte délicate garnie de fruits frais et d'une crème pâtissière légère.",
+        "price": "5.00 TND",
+        "image_url": "./images/img4.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Macaron assortis",
+        "description": "Un assortiment de macarons aux saveurs variées, parfaits pour un cadeau ou un dessert raffiné.",
+        "price": "6.50 TND",
+        "image_url": "./images/img5.jpeg"
+      },
+      {
+        "id": 6,
+        "name": "Chausson aux pommes",
+        "description": "Une pâte feuilletée croustillante remplie de compote de pommes douce et acidulée.",
+        "price": "3.50 TND",
+        "image_url": "./images/img6.jpeg"
+      },
+      {
+        "id": 7,
+        "name": "Tarte au citron meringuée",
+        "description": "Une tarte au citron acidulée recouverte d'une meringue légère et dorée.",
+        "price": "5.50 TND",
+        "image_url": "./images/img7.jpeg"
+      },
+      {
+        "id": 8,
+        "name": "Pain aux raisins",
+        "description": "Un pain moelleux parsemé de raisins secs et enroulé en spirale.",
+        "price": "3.00 TND",
+        "image_url": "./images/img8.jpeg"
+      },
+      {
+        "id": 9,
+        "name": "Tiramisu",
+        "description": "Un dessert italien classique composé de couches de mascarpone, de café et de cacao.",
+        "price": "6.00 TND",
+        "image_url": "./images/img2.jpeg"
+      },
+      {
+        "id": 10,
+        "name": "Gâteau au chocolat",
+        "description": "Un gâteau moelleux au chocolat garni d'un glaçage riche et crémeux au chocolat.",
+        "price": "7.00 TND",
+        "image_url": "./images/img1.jpeg"
+      }
+    ]
+  },
+  "user": [
+    {
+      "username": "ibtihel",
+      "email": "ibtihel228bensalah@gmail.com"
+    }
+  ]
+}
