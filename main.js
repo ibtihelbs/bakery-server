@@ -2,7 +2,8 @@ require("dotenv").config();
 const express = require("express");
 const PORT = 5000;
 const mongoose = require("mongoose");
-const app = express(express.json());
+const app = express();
+app.use(express.json());
 const productsRoutes = require("./routes/products");
 mongoose
   .connect(process.env.URL)

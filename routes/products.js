@@ -10,4 +10,19 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.post("/", async (req, res) => {
+  const newProd = req.body;
+  console.log("request log by ibs", newProd);
+  console.log("request log by ibs", req.body);
+  const addProd = new products(newProd);
+  try {
+    await addProd.save();
+    res.status(201).send(addProd);
+  } catch (error) {
+    console.log(error);
+    res.status(500).send(error);
+  }
+});
+
+
 module.exports = router;
